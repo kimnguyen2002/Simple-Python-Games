@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+	<head>
+		<title>Simple Slot Machine</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+		<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Simple Slot Machine</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html" class="active">Assignment 1</a></li>
+						<li><a href="another_generic.html" class="active">Assignment 2</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<p>
+								Write a program that allows the user to play a simplified version of a slot machine. The user starts
+								with $10. At the beginning of the program the user is given the following choices:<br/>
+								<br/>• Play the slot machine.<br/>
+								• Save game<br/>
+								• Cash out.<br/>
+								<br/>Each play costs 25 cents. For each play, the slot machine will output a random three-digit number,
+								where each digit ranges from 0 to 9. (This can be done by generating three separate integers in
+								between 0 and 9, inclusive.) The result of playing the slot machine should be outputted along with
+								what the user won. Here is a chart to indicate the winners earnings:<br/>
+
+								<br/>Combination &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Winnings
+								<br/>2 of a kind (such as 676 or 112)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50 cents
+								<br/>3 of a kind (000, 111, ..., 999)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$10.00 <br/>
+								
+								<br/>(Thus technically, you make a net earnings of 25 cents if you get a 2 of a kind and a net earnings of
+								$9.75 when you get 3 of a kind.)<br/>
+								<br/>If a player runs out of money, automatically cash them out and tell them that they have no money
+								left. (Thus, a player, after losing who has 0 cents left should not be prompted with the menu at all.
+								Rather, they should simply be presented with a message to end the game.) Otherwise, when a
+								player chooses to cash out, thank them for playing and output how much money they have left.
+								<br/>
+								Function details:<br/>
+								<br/>
+								1. The choice entered by the user for the menu will always be valid.<br/>
+								2. If you choice 2, save your money to file. And restore the money in the play next time .<br/>
+								3. If you have no money to play any to more, say good bye.<br/>
+								<br/>
+							</p>
+							<iframe src="https://trinket.io/embed/python3/573ed1fbd2" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>						</div>
+					</section>
+			</div>
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="https://kimnguyen2002.github.io/My-Porfolio/#">Kim Nguyen</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

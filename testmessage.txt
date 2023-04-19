@@ -1,0 +1,15 @@
+n
+dictionary_word_1
+dictionary_word_2
+...
+dictionary_word_n
+m
+forbidden_word_1
+forbidden_word_2
+...
+forbidden_word_m
+t
+hh:mm AM/PM
+w
+text message
+...
